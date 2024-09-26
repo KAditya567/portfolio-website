@@ -1,0 +1,17 @@
+.heading {
+    font-size: 60px;
+    font-weight: bold;
+    padding: 0px 0px 50px 0px;
+    color: white;
+  }
+  .item-list li{
+    list-style-type: none;
+  
+  }
+  a {
+    text-decoration: none;
+    padding: 0px 20px;
+    color: white;
+  }
+  
+  

@@ -1,0 +1,51 @@
+<section style="background-color: #101010">
+    <div class="container-fluid text-light py-5">
+      <div class="container text-center">
+        <div>
+          <h1 class="heading">Portfolio</h1>
+          <p>
+            It is a long established fact that a reader will be of a page when
+            established fact looking at its layout.
+          </p>
+        </div>
+        <div class="item-list row my-5">
+          <ul
+            class="d-flex justify-content-center"
+            style="display: inline-block; width: 25%; margin: auto"
+          >
+            <li>
+              <a
+                [routerLink]="[{ outlets: { portfolio: ['all'] } }]"
+                routerLinkActive="border border-start-0 border-end-0 border-top-0 border-3 border-danger"
+                >All</a
+              >
+            </li>
+            <li>
+              <a
+                [routerLink]="[{ outlets: { portfolio: ['graphic'] } }]"
+                routerLinkActive="border border-start-0 border-end-0 border-top-0 border-3 border-danger"
+                >Graphic</a
+              >
+            </li>
+            <li>
+              <a
+                [routerLink]="[{ outlets: { portfolio: ['UI'] } }]"
+                routerLinkActive="border border-start-0 border-end-0 border-top-0 border-3 border-danger"
+                >UI/UX</a
+              >
+            </li>
+            <li>
+              <a
+                [routerLink]="[{ outlets: { portfolio: ['web'] } }]"
+                routerLinkActive="border border-start-0 border-end-0 border-top-0 border-3 border-danger"
+                >Web</a
+              >
+            </li>
+          </ul>
+          <router-outlet name="portfolio"></router-outlet>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  

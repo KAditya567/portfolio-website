@@ -1,0 +1,35 @@
+p {
+    margin-bottom: 0;
+  }
+  .resume {
+    padding: 30px 50px;
+    background-color: #161616;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    border-left: 3px solid var(--main);
+  }
+  .heading {
+    font-size: 60px;
+    font-weight: bold;
+    padding: 0px 0px 50px 0px;
+  }
+  .icon {
+    font-size: xx-large;
+    color: var(--main);
+  }
+  .skills {
+    padding: 20px 30px;
+    background-color: #161616;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    border-bottom: 3px solid rgba(255, 0, 0, 0);
+  }
+  i {
+    font-size: xx-large;
+    color: white;
+  }
+  .link {
+    font-size: 50px;
+  }
+  .link:hover {
+    color: var(--main);
+  }
+  

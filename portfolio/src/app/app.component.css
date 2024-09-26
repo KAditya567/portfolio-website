@@ -1,0 +1,15 @@
+.scroll{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    font-size: xx-large;
+    z-index: 10;
+  
+  }
+  .scroll-icon{
+    color: var(--main);
+    font-size: 50px;
+  }
+  body{
+    scroll-behavior: smooth;
+  }
