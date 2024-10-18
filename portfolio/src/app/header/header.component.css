@@ -13,9 +13,50 @@ nav .nav-link {
   font-size: 16px;
 }
 /* nav bar end here  */
+/* new -------------------- */
+.burger{
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+  transition: all .3s .2s ease;
+
+}
+.main-icon{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.hamburger{
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 2px;
+}
+.first{
+  position: relative;
+  transform-origin: 95% 200%;
+  transform: rotate(-45deg);
+  transition-delay: .25s;
+}
+.third{
+  position: relative;
+  transform-origin:95% -100%;
+  transform: rotate(45deg);
+  transition-delay: .25s;
+
+
+}
+.second{
+  width: 1%;
+  background-color: rgb(0, 0, 0);
+  transition: all .3s ease;
+}
+/* new -------------------- */
 @media only screen and (max-width: 992px) {
   .navbar-collapse {
-    margin-top: 6px;
+    margin-top: 9px;
     background-color: rgb(15, 15, 15);
   }
   .nav-item:hover {

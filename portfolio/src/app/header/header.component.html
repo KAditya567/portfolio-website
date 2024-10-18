@@ -2,6 +2,8 @@
   <div class="container">
     <a class="navbar-brand website-logo" href="#">Aditya</a>
     <button
+      #mainbutton
+      (click)="button()"
       class="navbar-toggler"
       type="button"
       data-bs-toggle="collapse"
@@ -10,7 +12,12 @@
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <span class="navbar-toggler-icon">
+    <div #mainicon class="main-icon">
+      <div #one class="hamburger"></div>
+      <div #two class="hamburger"></div>
+      <div #three class="hamburger"></div>
+    </div>
+      <!-- <span class="navbar-toggler-icon">
         <svg xmls="https://www.w3.org/2000/svg" viewBox="0 0 30 30">
           <path
           stroke="rgba(255, 255, 255, 1)"
@@ -19,9 +26,8 @@
           stroke-width="2"
           d="M4 7h22M4 15h22M4 23h22" 
           />
-
         </svg>
-      </span>
+      </span> -->
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-lg-0 nav-link">

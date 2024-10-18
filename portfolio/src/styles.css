@@ -7,9 +7,6 @@
   box-sizing: border-box !important;
   font-family: "Poppins", sans-serif;
 }
-body {
-  scroll-behavior: smooth !important;
-}
 :root {
   --main: #dc3545;
   /* #DC3545 */
